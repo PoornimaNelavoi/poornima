@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .Employee{
+        color: rgb(46, 46, 123);
+        text-shadow:2px 2px rgb(224, 188, 157) ;
+        font-size: 60px;
+    }
+   table,th,td,tr{
+        border: 1px  solid black;
+        padding-left: 10px;
+        border-collapse: collapse;
+        padding: 15px;
+
+    }
+  header{
+    display: flex;
+    /* flex-basis: 5px 5px 5px 5px 5px; */
+    justify-content: space-between;
+  align-items: center;
+  width: 95vw;
+    
+  }
+  .login-form{
+    background-color: white;
+    padding-top: 1%;
+    width: 25%;
+    height: 250px;
+    border: 1px solid;
+    border: none;
+    box-shadow: 20px 20px 20px 20px rgb(233, 229, 229);
+  }
+  #username{
+    padding: 8px;
+    border: 1px solid;
+    border: none;
+    box-shadow: 20px 20px 20px 20px rgb(233, 229, 229);
+
+  }
+  #password{
+    padding: 8px;
+    border: 1px solid;
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgb(233, 229, 229);
+
+  }
+  button{
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    border: 1px solid;
+    border: none;
+  }
+
+</style>
+<body>
+    <div>
+        <h1 class="Employee" align="center">EMPLOYEE DETAILS</h1>
+        <br/><br/>
+        <table>
+            <tr>
+                <th colspan="5">Employee Details</th>
+            </tr>
+            <tr>
+                <th rowspan="6">Annual Package</th>
+            </tr>
+            <tr>
+                <th>S.I</th>
+                <th>User Name</th>
+                <th>Employee Id</th>
+                <th>Domain</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Poornima Nelavoi</td>
+                <td>151</td>
+                <td>Full-stack developer</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ponusha</td>
+                <td>152</td>
+                <td>Full-stack developer</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ravali</td>
+                <td>153</td>
+                <td>Full-stack developer</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>pavitra</td>
+                <td>151</td>
+                <td>Full-stack developer</td>
+            </tr>
+
+        </table>
+    </div>
+    <div>
+        <h1>Hello motoo: &#128512;</h1>
+        <h2>Hello motoo: &#128513;</h2>
+        <h3>Hello motoo: &#128514;</h3>
+        <h4>Hello motoo: &#128515;</h4>
+        <h5>Hello motoo: &#128516;</h5>
+        <h6>Hello motoo: &#128517;</h6>
+        
+        
+    </div>
+    <br/><br/>
+    <header>
+        <img src="emp.jpg"/>
+        <img src="emp.jpg"/>
+        <img src="emp.jpg"/>
+        <img src="emp.jpg"/>
+        <img src="emp.jpg"/>
+    </header>
+    <br/><br/><br/><br/>
+    <div align="center">
+    <div class="login-form" align="center">
+        <h1>Login Form</h1>
+    <form>
+        <label for="username">User Name:</label>
+        <input id="username" type="text" placeholder="Enter your User Name" value="" required/>
+        <br/><br/>
+        <label for="password">Password:</label>&ensp;
+        <input id="password" type="password" value="" placeholder="password" required/>
+        <br/><br/>
+        <button>singin</button>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
