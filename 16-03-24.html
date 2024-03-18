@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+button{
+    background-color: green;
+    padding: 10px;
+    width: 90px;
+    border: 2px solid;
+    border: none;
+    border-radius: 10px;
+}
+.login{
+    width: 400px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(150, 147, 147);
+    
+}
+form{
+    width: 400px;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(150, 147, 147);
+}
+</style>
+<body>
+   
+    <div class="login" align="center">
+        
+        <h1>Login Form</h1>
+        <label for="email">Email:</label>&ensp;&ensp;
+        <input type="email" id="email"/>
+        <br/><br/>
+        <label for="password">Password:</label>
+        <input type="password" id="password"/>
+        <br/><br/>
+        <button>login</button>
+     
+
+    </div>
+    <br/><br/>
+    <form>
+        <h1>SignUp Form</h1>
+        <label for="FirstName">First Name:</label>
+        <input type="text" placeholder="Enter Your First Name" required value="" id="FirstName"/>
+        <br/><br/>
+        <label for="lastname">Last Name:</label>
+        <input type="text" placeholder="Last Name" id="lastname" value="" required/>
+        <br/><br/>
+        <label for="email">Email:</label>&ensp;&ensp;
+        <input type="email" id="email" value="" required/>
+        <br/><br/>
+        <label for="password">Password:</label>
+        <input type="password" id="password" value="" required/>
+        <br/><br/>
+        <label>Mobile:</label>
+        <input type="number" value="" required/>
+        <br/><br/>
+        <label action="/ssp_emp.jpg">Picture</label>
+        <input type="file" id="myfile"name="filename"/>
+    </form>
+</body>
+</html>
