@@ -1,0 +1,2279 @@
+#body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+#imgName{
+  border-radius: 95%;
+  cursor: pointer;
+  width: 300px;
+  
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+  .text {
+    height: 40%;
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .text {
+      height: 40%;
+      width: 40%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .text {
+    height: 40%;
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .text {
+    display: none;
+      height: 100%;
+      width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .text {
+    display: none;
+      height: 100%;
+      width: 100%;
+  }
+  .vedio{
+    display: none;
+
+  }
+  
+}
+#mouseout{
+  position: absolute;
+  left: 40%;
+  bottom: 47%;
+}
+
+#mouseover{
+position: absolute;
+width: 20%;
+left: 40%;
+bottom: 40%;
+color: aliceblue;
+background-color: #063392;
+padding-left: 2%;
+padding-right: 2%;
+border-radius: 10px;
+}
+
+#imgName1{
+  border-radius: 95%;
+  cursor: pointer;
+  width: 300px;
+  
+}
+#mouseout1{
+  position: absolute;
+  left: 65%;
+  bottom: 39%;
+}
+
+#mouseover1{
+position: absolute;
+width: 15%;
+left: 68%;
+top: 57%;
+color: aliceblue;
+background-color: #063392;
+padding-left: 2%;
+padding-right: 2%;
+border-radius: 10px;
+}
+
+#imgName2{
+  border-radius: 95%;
+  cursor: pointer;
+  width: 300px;
+  
+}
+#mouseout2{
+  position: absolute;
+  left: 75%;
+  bottom: 9%;
+}
+
+#mouseover2{
+position: absolute;
+width: 18%;
+left: 78%;
+top: 85%;
+color: aliceblue;
+background-color: #063392;
+padding-left: 2%;
+padding-right: 2%;
+border-radius: 10px;
+}
+#imgName3{
+  border-radius: 95%;
+  cursor: pointer;
+  width: 300px;
+  
+}
+#mouseout3{
+  position: absolute;
+  left: 75%;
+  top: 100%;
+}
+
+#mouseover3{
+position: absolute;
+width: 16%;
+left: 78%;
+top: 120%;
+color: aliceblue;
+background-color: #063392;
+padding-left: 2%;
+padding-right: 2%;
+border-radius: 10px;
+}
+
+#imgName4{
+  border-radius: 95%;
+  cursor: pointer;
+  width: 300px;
+  
+}
+#mouseout4{
+  position: absolute;
+  left: 60%;
+  top: 125%;
+}
+
+#mouseover4{
+position: absolute;
+width: 18%;
+left: 68%;
+top: 140%;
+color: aliceblue;
+background-color: #063392;
+padding-left: 2%;
+padding-right: 2%;
+border-radius: 10px;
+}
+
+#imgName5{
+  border-radius: 95%;
+  cursor: pointer;
+  width: 300px;
+  
+}
+#mouseout5{
+  position: absolute;
+  left: 35%;
+  top: 125%;
+}
+
+#mouseover5{
+position: absolute;
+width: 18%;
+left: 40%;
+top: 140%;
+color: aliceblue;
+background-color: #063392;
+padding-left: 2%;
+padding-right: 2%;
+border-radius: 10px;
+}
+
+#imgName6{
+  border-radius: 95%;
+  cursor: pointer;
+  width: 300px;
+  
+}
+#mouseout6{
+  position: absolute;
+  left: 13%;
+  top: 110%;
+}
+
+#mouseover6{
+position: absolute;
+width: 18%;
+left: 15%;
+top: 130%;
+color: aliceblue;
+background-color: #063392;
+padding-left: 2%;
+padding-right: 1%;
+border-radius: 10px;
+}
+
+#imgName7{
+  border-radius: 95%;
+  cursor: pointer;
+  width: 300px;
+  
+}
+#mouseout7{
+  position: absolute;
+  left: 8%;
+  top: 80%;
+}
+
+#mouseover7{
+position: absolute;
+width: 18%;
+left: 8%;
+top: 95%;
+color: aliceblue;
+background-color: #063392;
+padding-left: 2%;
+padding-right: 2%;
+border-radius: 10px;
+}
+#imgName8{
+  border-radius: 95%;
+  cursor: pointer;
+  width: 300px;
+  
+}
+#mouseout8{
+  position: absolute;
+  left: 12%;
+  top: 50%;
+}
+
+#mouseover8{
+position: absolute;
+width: 18%;
+left: 11%;
+top: 70%;
+color: aliceblue;
+background-color: #063392;
+padding-left: 2%;
+padding-right: 2%;
+border-radius: 10px;
+}
+
+
+  .profission{
+      display:none;
+  }
+  
+  .profision{
+      width:326px;
+      height:326px;  
+  }
+  
+  
+  #head{
+    display: inline;
+    color: #f8b77e;
+  }
+  #head:hover{
+    color: #f8b77e;
+    
+  }
+  .logo{
+    position: absolute;
+    right: 58%;
+    height: 30%;
+    width: 40%;
+    top:10px;
+     border-bottom-right-radius: 80%;
+  }
+
+ 
+  .blink {
+   
+    animation: blink-animation 6s steps(5, start) infinite;
+    -webkit-animation: blink-animation 5s steps(5, start) infinite;
+    
+  }
+
+  .blink .scanner{
+     height: 25%;
+    width: 15%;
+    position: absolute;
+    left: 79%;
+    position: absolute;
+    bottom: 68%;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+/* .teli{
+  text-decoration: none;
+  position: absolute;
+  font-size: 25px;
+  bottom: 87%;
+  left: 60%;
+  color: #1c6a1d;
+}
+
+.teli:hover{
+  color:	#063392;
+} */
+.p  {
+  color:#1c6a1d ;
+  text-decoration: none;
+  position: absolute;
+  font-size: 22px;
+  bottom: 90%;
+  left: 63%;
+}
+
+ a:hover {
+  color:#063392;
+}
+ 
+  .o{
+    position: absolute;
+    font-size: 20px;
+    bottom: 90%;
+    left: 49%;
+    color: #1c6a1d;
+  }
+  .o:hover{
+    color: #063392;
+  }
+ 
+  .r{
+    position: absolute;
+    font-size: 20px;
+    bottom: 90%;
+    left: 38%;
+    color:#1c6a1d;
+  }
+  .r:hover{
+    color: #063392;
+  }
+  .grid{
+    height: 2400px;
+
+    background-color: #000; 
+    width: 100%;
+    /* background-image: linear-gradient(#dda779,#d69d77,#c1808c,#c69a82,#c9da75,#d3c276); */
+    
+    border: spacing 20rem;
+  
+  }
+  /* @media(max-height:4000px){
+    .grid{
+  padding:1700px
+    }
+    
+  } */
+ .social{
+position: fixed;
+bottom: 42.3%;
+z-index: 1;
+ }
+ 
+ .Location a{
+    position: absolute;
+    top: 205%;
+    padding-left: 5%;
+    font-size: 22px;
+    color: #1c6a1d;
+  }
+  .a:hover{
+    color: #063392;
+  }
+
+  .info a {
+    color:#1c6a1d ;
+    text-decoration: none;
+    position: absolute;
+    top: 205%;
+    left: 69%;
+    font-size: 22px;
+
+    padding-left: 5%;
+  }
+  
+   a:hover {
+    color:#063392;
+  }
+ 
+  .mail{
+    text-decoration: none;
+    position: absolute;
+    top: 205%;
+    left: 55%;
+    font-size: 22px;
+    padding-left: 5%;
+    color: #1c6a1d;
+  }
+  .a:hover{
+    color: #063392;
+  }
+  .mail1{
+    text-decoration: none;
+    position: absolute;
+    top: 205%;
+    left: 40%;
+    font-size: 20px;
+    padding-left: 5%;
+    color: #1c6a1d;
+  }
+  .a:hover{
+    color: #063392;
+  }
+  .facebook {
+    width: 150%;
+    padding: 25%;
+    background: #355db2;
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .facebook:hover {
+    width: 250%;
+  }
+  .twite {
+    width: 150%;
+    padding: 25%;
+    background: #308697;
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .twite:hover {
+    width: 250%;
+  }
+  .linkdin {
+    width: 150%;
+    padding: 25%;
+    background: #0075b5;
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .linkdin:hover {
+    width: 250%;
+  }
+  .insta {
+    width: 150%;
+    padding: 25%;
+    background-image: linear-gradient(to right,#9a0749 ,#f55929);
+    /* background-image: linear-gradient( right #515bd4,#8134af,#dd2a7b,#feda77,#f58529); */
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .insta:hover {
+    width: 250%;
+  }
+
+ 
+  .call {
+    width: 150%;
+    padding: 25%;
+    background: #1c6a1d;
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .call:hover {
+    width: 250%;
+  }
+  .msg {
+    width: 150%;
+    padding: 25%;
+    background: #eec90f;
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .msg:hover {
+    width: 250%;
+  }
+  .vedio{
+    border-radius: 80px 80px 80px 80px;
+    position: absolute;
+    top: 150%; 
+    left:30%;
+  }
+ 
+
+
+  @media only screen and (min-width: 1920px) and (max-width: 1080px) {
+    .Location{
+  
+      position: absolute;
+      left: 5%;
+      top:216%;
+    }
+    .info{
+  
+      position: absolute;
+      left: 75%;
+      top:225%;
+    }
+    .mail{
+        
+      position: absolute;
+      left: 30%;
+      top:225%;
+    }
+    .mail1{
+      position: absolute;
+      left: 50%;
+      top:225%;
+    }
+    .vedio{ border-radius: 80px 80px 80px 80px;
+    position: absolute;
+    top: 160%; 
+    left:30%;
+  }
+    .Location a{
+      position: absolute;
+      top: 215%;
+      padding-left: 5%;
+      font-size: 22px;
+  
+      color: #1c6a1d;
+    }
+    .a:hover{
+      color: #063392;
+    }
+  
+    .info a {
+      color:#1c6a1d ;
+      text-decoration: none;
+      position: absolute;
+      top: 215%;
+      left: 69%;
+      font-size: 22px;
+  
+      padding-left: 5%;
+    }
+    
+     a:hover {
+      color:#063392;
+    }
+   
+    .mail{
+      text-decoration: none;
+      position: absolute;
+      top: 215%;
+      left: 55%;
+      font-size: 22px;
+      padding-left: 5%;
+      color: #1c6a1d;
+    }
+    .a:hover{
+      color: #063392;
+    }
+    .mail1{
+      text-decoration: none;
+      position: absolute;
+      top: 215%;
+      left: 40%;
+      font-size: 20px;
+      padding-left: 5%;
+      color: #1c6a1d;
+    }
+    .a:hover{
+      color: #063392;
+    }
+    
+    .grid {
+      height: 2400px;
+      width: 721px;
+      background-color: #000; 
+      border: spacing 20rem;  
+  }
+  #imgName {
+    border-radius: 95%;
+    width: 300px;
+  }
+  #imgName1 {
+    border-radius: 95%;
+    width: 300px;
+  }
+#mouseout{
+  position: absolute;
+  left: 40%;
+  bottom: 45%;
+}
+
+#mouseout1 {
+  position: absolute;
+  left: 65%;
+  top: 50%;
+}
+#mouseout2 {
+  position: absolute;
+  left: 75%;
+  top: 75%;
+}
+#mouseout3 {
+  position: absolute;
+  left: 73%;
+  top: 101%;
+}
+
+#mouseout4 {
+  position: absolute;
+  left: 57%;
+  top: 120%;
+}
+#mouseout5 {
+  position: absolute;
+  left: 30%;
+  top: 130%;
+}
+#mouseout6 {
+  position: absolute;
+  left: 15%;
+  top: 123%;
+}
+#mouseout7 {
+  position: absolute;
+  left: 10%;
+  top: 78%;
+}
+#mouseout8 {
+  position: absolute;
+  left: 17%;
+  top: 48%;
+}
+  
+  }
+  
+
+
+
+
+  @media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    .grid {
+      height: 2400px;
+      width: 721px;
+      background-color: #000; 
+      border: spacing 20rem;  
+  }
+  #imgName {
+    border-radius: 95%;
+    width: 300px;
+  }
+  #imgName1 {
+    border-radius: 95%;
+    width: 300px;
+  }
+#mouseout{
+  position: absolute;
+  left: 40%;
+  bottom: 45%;
+}
+
+#mouseout1 {
+  position: absolute;
+  left: 65%;
+  top: 50%;
+}
+#mouseout2 {
+  position: absolute;
+  left: 75%;
+  top: 75%;
+}
+#mouseout3 {
+  position: absolute;
+  left: 73%;
+  top: 101%;
+}
+
+#mouseout4 {
+  position: absolute;
+  left: 57%;
+  top: 120%;
+}
+#mouseout5 {
+  position: absolute;
+  left: 30%;
+  top: 130%;
+}
+#mouseout6 {
+  position: absolute;
+  left: 15%;
+  top: 123%;
+}
+#mouseout7 {
+  position: absolute;
+  left: 10%;
+  top: 78%;
+}
+#mouseout8 {
+  position: absolute;
+  left: 17%;
+  top: 48%;
+}
+.vedio{
+  height: 25%;
+  position: absolute;
+  left: -52%;
+  border-radius: 10%;
+  top:158%;
+}
+  
+  }
+  
+  @media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .Location{
+  
+      position: absolute;
+      left: 5%;
+      top:216%;
+    }
+    .info{
+  
+      position: absolute;
+      left: 75%;
+      top:225%;
+    }
+    .mail{
+        
+      position: absolute;
+      left: 30%;
+      top:225%;
+    }
+    .mail1{
+      position: absolute;
+      left: 50%;
+      top:225%;
+    }
+    
+    
+    .vedio{
+      height: 25%;
+      position: absolute;
+      left: 35%;
+      border-radius: 10%;
+      top:158%;
+    }
+   
+   
+    
+   
+    .grid {
+      height: 2200px;
+      width: 100%;
+      background-color: #000; 
+      border: spacing 20rem;  
+  }
+  #imgName {
+    border-radius: 95%;
+    width: 300px;
+  }
+
+  #imgName1 {
+    border-radius: 95%;
+    width: 300px;
+}
+#mouseout{
+  position: absolute;
+  left: 42%;
+  bottom: 46%;
+}
+#mouseover{
+  position: absolute;
+  width: 20%;
+  left: 45%;
+  bottom: 40%;
+  color: aliceblue;
+  background-color: #063392;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  z-index: 1;
+  }
+#mouseout1 {
+  position: absolute;
+  left: 67%;
+  top: 50%;
+}
+#mouseover1{
+  position: absolute;
+  width: 20%;
+  left: 75%;
+  top: 64%;
+  color: aliceblue;
+  background-color: #063392;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  z-index: 1;
+
+  }
+#mouseout2 {
+  position: absolute;
+  left: 75%;
+  top: 75%;
+}
+#mouseover2{
+  position: absolute;
+  width: 20%;
+  left: 75%;
+  top: 93%;
+  color: aliceblue;
+  background-color: #063392;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  z-index: 1;
+
+  }
+#mouseout3 {
+  position: absolute;
+  left: 73%;
+  top: 101%;
+}
+#mouseover3{
+  position: absolute;
+  width: 20%;
+  left: 75%;
+  top: 118%;
+  color: aliceblue;
+  background-color: #063392;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  z-index: 1;
+
+  }
+#mouseout4 {
+  position: absolute;
+  left: 57%;
+  top: 120%;
+}
+#mouseover4{
+  position: absolute;
+  width: 20%;
+  left: 60%;
+  top: 135%;
+  color: aliceblue;
+  background-color: #063392;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  z-index: 1;
+
+  }
+  #mouseover5{
+    position: absolute;
+    width: 20%;
+    left: 30%;
+    top: 135%;
+    color: aliceblue;
+    background-color: #063392;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    z-index: 1;
+  
+    }
+
+#mouseout5 {
+    position: absolute;
+    left: 33%;
+    top: 120%;
+}
+
+#mouseout6 {
+  position: absolute;
+  left: 15%;
+  top: 103%;
+}
+#mouseover6{
+  position: absolute;
+  width: 20%;
+  left: 10%;
+  top: 120%;
+  color: aliceblue;
+  background-color: #063392;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  z-index: 1;
+
+  }
+#mouseout7 {
+  position: absolute;
+  left: 10%;
+  top: 78%;
+}
+#mouseover7{
+  position: absolute;
+  width: 20%;
+  left: 8%;
+  top: 95%;
+  color: aliceblue;
+  background-color: #063392;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  z-index: 1;
+
+  }
+#mouseout8 {
+  position: absolute;
+  left: 17%;
+  top: 48%;
+}
+#mouseover8{
+  position: absolute;
+  width: 20%;
+  left: 10%;
+  top: 65%;
+  color: aliceblue;
+  background-color: #063392;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  z-index: 1;
+
+  }
+  }
+  /* @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .grid {
+      height: 1900px;
+      width: 721px;
+      background-color: #000; 
+      border: spacing 20rem;  
+  }
+  #imgName{
+    border-radius: 95%;
+    width: 200px;
+  }
+#mouseout{
+  position: absolute;
+  left: 40%;
+  bottom: 47%;
+}
+
+  } */
+  
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .vedio{
+    height: 25%;
+    width: 199%;
+    position: absolute;
+    left: -42%;
+    border-radius: 10%;
+    top:198%;
+    
+  }
+  .Location{
+    position: absolute;
+    left: 16%;
+    top:226%;
+  }
+  .info{
+
+    position: absolute;
+    left: 72%;
+    top:232%;
+  }
+  .mail{
+      
+    position: absolute;
+    left: 10%;
+    top:250%;
+  }
+  .mail1{
+
+    position: absolute;
+    left: 70%;
+    top:250%;
+  }
+  .r{
+
+    position: absolute;
+    left: 40%;
+    top:11%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 20px;
+  }
+  .o{
+
+    position: absolute;
+    left: 40%;
+    top:7%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 20px;
+  }
+  .p{
+
+    position: absolute;
+    left: 40%;
+    top:15%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 20px;
+  }
+  .blink .scanner{
+    height: 12%;
+   width: 18%;
+   position: absolute;
+   left: 85%;
+   position: absolute;
+   bottom: 82%;
+ }
+ .logo{
+width: 35%;
+height: 20%;
+position: absolute;
+left: 2%;
+ }
+ .facebook {
+    width: 100%;
+    padding: 25%;
+    background: #355db2;
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .facebook:hover {
+    width: 200%;
+  }
+  .twite {
+    width: 100%;
+    padding: 25%;
+    background: #308697;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .twite:hover {
+    width: 200%;
+  }
+  .linkdin {
+    width: 100%;
+    padding: 25%;
+    background: #0075b5;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .linkdin:hover {
+    width: 200%;
+  }
+  .insta {
+    width: 100%;
+    padding: 25%;
+    background-image: linear-gradient(to right,#9a0749 ,#f55929);
+    /* background-image: linear-gradient( right #515bd4,#8134af,#dd2a7b,#feda77,#f58529); */
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .insta:hover {
+    width: 200%;
+  }
+  .call {
+    width: 100%;
+    padding: 25%;
+    background: #1c6a1d;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .call:hover {
+    width: 200%;
+  }
+  .msg {
+    width: 100%;
+    padding: 25%;
+    background: #eec90f;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .msg:hover {
+    width: 200%;
+  }
+
+  }
+  @media (max-width: 767px) {
+    .grid {
+      height: 1900px;
+      width: 721px;
+      background-color: #000; 
+      border: spacing 20rem;  
+  }
+  #imgName {
+    border-radius: 95%;
+    width: 200px;
+  }
+#mouseout{
+  position: absolute;
+  left: 40%;
+  bottom: 40%;
+}
+
+  }
+
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+   
+  .vedio{
+    height: 25%;
+    width: 199%;
+    position: absolute;
+    left: -42%;
+    border-radius: 10%;
+    top:198%;
+  }
+  .Location{
+
+    position: absolute;
+    left: 16%;
+    top:216%;
+  }
+  .info{
+
+    position: absolute;
+    left: 72%;
+    top:226%;
+  }
+  .mail{
+      
+    position: absolute;
+    left: 10%;
+    top:240%;
+  }
+  .mail1{
+    position: absolute;
+    left: 70%;
+    top:240%;
+  }
+
+  .grid {
+    height: 1900px;
+    width: 100%;
+    background-color: #000; 
+    border: spacing 20rem;  
+}
+#imgName {
+  border-radius: 95%;
+  width: 300px;
+}
+
+#imgName1 {
+  border-radius: 95%;
+  width: 300px;
+}
+#mouseout{
+position: absolute;
+left: 42%;
+bottom: 46%;
+}
+
+#mouseout1 {
+position: absolute;
+left: 67%;
+top: 50%;
+}
+#mouseout2 {
+position: absolute;
+left: 75%;
+top: 75%;
+}
+
+#mouseout3 {
+position: absolute;
+left: 73%;
+top: 101%;
+}
+
+#mouseout4 {
+position: absolute;
+left: 57%;
+top: 120%;
+}
+
+#mouseout5 {
+  position: absolute;
+  left: 33%;
+  top: 120%;
+}
+
+#mouseout6 {
+position: absolute;
+left: 15%;
+top: 103%;
+}
+#mouseout7 {
+position: absolute;
+left: 10%;
+top: 78%;
+}
+#mouseout8 {
+position: absolute;
+left: 17%;
+top: 48%;
+}
+  }
+  @media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    .vedio{
+      height: 25%;
+      width: 199%;
+      position: absolute;
+      left: -42%;
+      border-radius: 10%;
+      top:198%;
+    }
+    .Location{
+  
+      position: absolute;
+      left: 16%;
+      top:206%;
+    }
+    .info{
+  
+      position: absolute;
+      left: 72%;
+      top:216%;
+    }
+    .mail{
+        
+      position: absolute;
+      left: 10%;
+      top:230%;
+    }
+    .mail1{
+      position: absolute;
+      left: 70%;
+      top:230%;
+    }
+    .grid {
+      height: 1900px;
+      width: 100%;
+      background-color: #000; 
+      border: spacing 20rem;  
+  }
+  #imgName {
+    border-radius: 95%;
+    width: 300px;
+  }
+
+  #imgName1 {
+    border-radius: 95%;
+    width: 300px;
+}
+#mouseout{
+  position: absolute;
+  left: 42%;
+  bottom: 46%;
+}
+
+#mouseout1 {
+  position: absolute;
+  left: 67%;
+  top: 50%;
+}
+#mouseout2 {
+  position: absolute;
+  left: 75%;
+  top: 75%;
+}
+
+#mouseout3 {
+  position: absolute;
+  left: 73%;
+  top: 101%;
+}
+
+#mouseout4 {
+  position: absolute;
+  left: 57%;
+  top: 120%;
+}
+
+#mouseout5 {
+    position: absolute;
+    left: 33%;
+    top: 120%;
+}
+
+#mouseout6 {
+  position: absolute;
+  left: 15%;
+  top: 103%;
+}
+#mouseout7 {
+  position: absolute;
+  left: 10%;
+  top: 78%;
+}
+#mouseout8 {
+  position: absolute;
+  left: 17%;
+  top: 48%;
+}
+  }
+   @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    
+      .grid {
+        height: 2400px;
+        width: 100%;
+        background-color: #000; 
+        border: spacing 20rem;  
+    }
+    .vedio{
+      height: 25%;
+      width: 199%;
+      position: absolute;
+      left: -42%;
+      border-radius: 10%;
+      top:198%;
+    }
+    .Location{
+  
+      position: absolute;
+      left: 5%;
+      top:206%;
+    }
+    .info{
+  
+      position: absolute;
+      left: 75%;
+      top:215%;
+    }
+    .mail{
+        
+      position: absolute;
+      left: 30%;
+      top:215%;
+    }
+    .mail1{
+      position: absolute;
+      left: 50%;
+      top:215%;
+    }
+  
+    #imgName {
+      border-radius: 95%;
+      width: 300px;
+    }
+  
+    #imgName1 {
+      border-radius: 95%;
+      width: 300px;
+  }
+  #mouseout{
+    position: absolute;
+    left: 45%;
+    bottom: 46%;
+  }
+  #mouseover{
+      position: absolute;
+      width: 20%;
+      left: 45%;
+      bottom: 40%;
+      color: aliceblue;
+      background-color: #063392;
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+      z-index: 1;
+      }
+  
+  #mouseout1 {
+    position: absolute;
+    left: 68%;
+    top: 40%;
+  }
+  #mouseover1{
+      position: absolute;
+      width: 20%;
+      left: 75%;
+      top: 64%;
+      color: aliceblue;
+      background-color: #063392;
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+      z-index: 1;
+
+      }
+  #mouseout2 {
+    position: absolute;
+    left: 75%;
+    top: 75%;
+  }
+  #mouseover2{
+      position: absolute;
+      width: 20%;
+      left: 75%;
+      top: 98%;
+      color: aliceblue;
+      background-color: #063392;
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+      z-index: 1;
+
+      }
+  #mouseout3 {
+    position: absolute;
+    left: 73%;
+    top: 110%;
+  }
+  #mouseover3{
+      position: absolute;
+      width: 20%;
+      left: 75%;
+      top: 138%;
+      color: aliceblue;
+      background-color: #063392;
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+      z-index: 1;
+
+      }
+  #mouseout4 {
+    position: absolute;
+    left: 50%;
+    top: 130%;
+  }
+  #mouseover4{
+      position: absolute;
+      width: 20%;
+      left: 55%;
+      top: 155%;
+      color: aliceblue;
+      background-color: #063392;
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+      z-index: 1;
+
+      }
+  
+  #mouseout5 {
+      position: absolute;
+      left: 23%;
+      top: 128%;
+  }
+  #mouseover5{
+      position: absolute;
+      width: 20%;
+      left: 25%;
+      top: 155%;
+      color: aliceblue;
+      background-color: #063392;
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+      z-index: 1;
+
+      }
+  
+  #mouseout6 {
+    position: absolute;
+    left: 13%;
+    top: 97%;
+  }
+  #mouseover6{
+      position: absolute;
+      width: 20%;
+      left: 15%;
+      top: 120%;
+      color: aliceblue;
+      background-color: #063392;
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+      z-index: 1;
+
+      }
+  #mouseout7 {
+    position: absolute;
+    left: 8%;
+    top: 65%;
+  }
+  #mouseover7{
+      position: absolute;
+      width: 20%;
+      left: 8%;
+      top: 90%;
+      color: aliceblue;
+      background-color: #063392;
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+      z-index: 1;
+
+      }
+  #mouseout8 {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+  }
+  #mouseover8{
+      position: absolute;
+      width: 20%;
+      left: 15%;
+      top: 60%;
+      color: aliceblue;
+      background-color: #063392;
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+      z-index: 1;
+
+      }
+    }
+   
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .grid {
+      height: 1900px;
+      width: 721px;
+      background-color: #000; 
+      border: spacing 20rem;  
+  }
+  #imgName1 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName2 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName3 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName4 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName5 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName6 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName7 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName8 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #mouseout{
+    position: absolute;
+    left: 23%;
+    top:22%;
+  }
+  #mouseover{
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    background-color:#000 ;
+    left: 70%;
+    top: 20%;
+    color: aliceblue;
+    
+    border-radius: 10px;
+    }
+  
+#mouseout1{
+  position: absolute;
+  left: 23%;
+  top:41%;
+}
+#mouseover1{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 45%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout2{
+  position: absolute;
+  left: 23%;
+  top:61%;
+}
+#mouseover2{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 65%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout3{
+  position: absolute;
+  left: 23%;
+  top:81%;
+}
+#mouseover3{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 82%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout4 {
+  position: absolute;
+  left: 23%;
+  top: 102%;
+}
+#mouseover4{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 102%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout5 {
+  position: absolute;
+  left: 23%;
+  top: 122%;
+}
+#mouseover5{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 122%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout6 {
+  position: absolute;
+  left: 23%;
+  top: 142%;
+}
+#mouseover6{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 142%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout7{
+  position: absolute;
+  left: 23%;
+  top:160%;
+}
+#mouseover7{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 162%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout8{
+  position: absolute;
+  left: 23%;
+  top:178%;
+}
+#mouseover8{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 182%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+.block scanner {
+  height: 17%;
+  width: 29%;
+  position: absolute;
+  left: 73%;
+  position: absolute;
+  bottom: 60%;
+}
+
+  }
+ 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Location{
+    position: absolute;
+    left: 16%;
+    top:226%;
+  }
+  .vedio{
+    height: 25%;
+    width: 199%;
+    position: absolute;
+    left: -42%;
+    border-radius: 10%;
+    top:198%;
+  }
+  .info{
+
+    position: absolute;
+    left: 72%;
+    top:232%;
+  }
+  .mail{
+      
+    position: absolute;
+    left: 10%;
+    top:250%;
+  }
+  .mail1{
+
+    position: absolute;
+    left: 70%;
+    top:250%;
+  }
+  .r{
+
+    position: absolute;
+    left: 40%;
+    top:11%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 20px;
+  }
+  .o{
+
+    position: absolute;
+    left: 40%;
+    top:7%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 20px;
+  }
+  .p{
+
+    position: absolute;
+    left: 40%;
+    top:15%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 20px;
+  }
+  .blink .scanner{
+    height: 12%;
+   width: 18%;
+   position: absolute;
+   left: 85%;
+   position: absolute;
+   bottom: 82%;
+ }
+ .logo{
+width: 35%;
+height: 20%;
+position: absolute;
+left: 2%;
+ }
+ .facebook {
+    width: 100%;
+    padding: 25%;
+    background: #355db2;
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .facebook:hover {
+    width: 200%;
+  }
+  .twite {
+    width: 100%;
+    padding: 25%;
+    background: #308697;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .twite:hover {
+    width: 200%;
+  }
+  .linkdin {
+    width: 100%;
+    padding: 25%;
+    background: #0075b5;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .linkdin:hover {
+    width: 200%;
+  }
+  .insta {
+    width: 100%;
+    padding: 25%;
+    background-image: linear-gradient(to right,#9a0749 ,#f55929);
+    /* background-image: linear-gradient( right #515bd4,#8134af,#dd2a7b,#feda77,#f58529); */
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .insta:hover {
+    width: 200%;
+  }
+  .call {
+    width: 100%;
+    padding: 25%;
+    background: #1c6a1d;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .call:hover {
+    width: 200%;
+  }
+  .msg {
+    width: 100%;
+    padding: 25%;
+    background: #eec90f;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .msg:hover {
+    width: 200%;
+  }
+
+  }
+  @media (max-width: 767px) {
+    .grid {
+      height: 2400px;
+      width: 550px;
+      background-color: #000; 
+      border: spacing 20rem;  
+  }
+  #imgName {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName1 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName2 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName3 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName4 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName5 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName6 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName7 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #imgName8 {
+    border-radius: 95%;
+    width: 200px;
+  }
+  #mouseout{
+    position: absolute;
+    left: 23%;
+    top:22%;
+  }
+  #mouseover{
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    background-color:#000 ;
+    left: 70%;
+    top: 23%;
+    color: aliceblue;
+    
+    border-radius: 10px;
+    }
+  
+#mouseout1{
+  position: absolute;
+  left: 23%;
+  top:41%;
+}
+#mouseover1{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 45%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout2{
+  position: absolute;
+  left: 23%;
+  top:61%;
+}
+#mouseover2{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 65%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout3{
+  position: absolute;
+  left: 23%;
+  top:81%;
+}
+#mouseover3{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 82%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout4 {
+  position: absolute;
+  left: 23%;
+  top: 102%;
+}
+#mouseover4{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 102%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout5 {
+  position: absolute;
+  left: 23%;
+  top: 122%;
+}
+#mouseover5{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 122%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout6 {
+  position: absolute;
+  left: 23%;
+  top: 142%;
+}
+#mouseover6{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 142%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout7{
+  position: absolute;
+  left: 23%;
+  top:160%;
+}
+#mouseover7{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 162%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+#mouseout8{
+  position: absolute;
+  left: 23%;
+  top:178%;
+}
+#mouseover8{
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  background-color:#000 ;
+  left: 70%;
+  top: 182%;
+  color: aliceblue;
+  
+  border-radius: 10px;
+  }
+.block scanner {
+  height: 17%;
+  width: 29%;
+  position: absolute;
+  left: 73%;
+  position: absolute;
+  bottom: 60%;
+}
+
+  }
+
+@media (max-width: 767px) {
+  .vedio{
+    height: 25%;
+    width: 199%;
+    position: absolute;
+    left: -42%;
+    border-radius: 10%;
+    top:198%;
+  }
+  .Location{
+
+    position: absolute;
+    left: 16%;
+    top:206%;
+  }
+  .info{
+
+    position: absolute;
+    left: 72%;
+    top:216%;
+  }
+  .mail{
+      
+    position: absolute;
+    left: 10%;
+    top:230%;
+  }
+  .mail1{
+    position: absolute;
+    left: 70%;
+    top:230%;
+  }
+  .r{
+
+    position: absolute;
+    left: 35%;
+    top:11%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 13px;
+  }
+  .o{
+
+    position: absolute;
+    left: 35%;
+    top:7%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 13px;
+  }
+  .p{
+
+    position: absolute;
+    left: 35%;
+    top:15%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 13px;
+  }
+  .blink .scanner{
+    height: 12%;
+   width: 18%;
+   position: absolute;
+   left: 66%;
+   position: absolute;
+   bottom: 82%;
+ }
+ .logo{
+width: 35%;
+height: 20%;
+position: absolute;
+left: 2%;
+ }
+ .facebook {
+    width: 100%;
+    padding: 25%;
+    background: #355db2;
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .facebook:hover {
+    width: 200%;
+  }
+  .twite {
+    width: 100%;
+    padding: 25%;
+    background: #308697;
+    transition: width 0.6s;
+    font-size: 25px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .twite:hover {
+    width: 200%;
+  }
+  .linkdin {
+    width: 100%;
+    padding: 25%;
+    background: #0075b5;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .linkdin:hover {
+    width: 200%;
+  }
+  .insta {
+    width: 100%;
+    padding: 25%;
+    background-image: linear-gradient(to right,#9a0749 ,#f55929);
+    /* background-image: linear-gradient( right #515bd4,#8134af,#dd2a7b,#feda77,#f58529); */
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .insta:hover {
+    width: 200%;
+  }
+  .call {
+    width: 100%;
+    padding: 25%;
+    background: #1c6a1d;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  
+  .call:hover {
+    width: 200%;
+  }
+  .msg {
+    width: 100%;
+    padding: 25%;
+    background: #eec90f;
+    transition: width 0.6s;
+    /* font-size: 25px; */
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+  }
+  .msg:hover {
+    width: 200%;
+  }
+}
