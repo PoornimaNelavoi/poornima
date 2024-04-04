@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cos{
+        background-color: 	#FFC0CB;
+        font-size: 20px;
+        padding-top: 0.5px;
+        padding-bottom: 0.5px;
+    }
+    header{
+        position: absolute;
+        top: 13%;
+       /* background-color:  #7f4444; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93.8%;
+    z-index: 1;
+    padding: 50px;
+    }
+    nav a{ 
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 230px;
+  z-index: 1;
+  
+  }
+ 
+  #kylie{
+    color: #000;
+    /* background-color:  #7f4444; */
+    padding: 20px;
+    position: absolute;
+    top: 8.4%;
+    width: 97%;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 35px;
+  }
+  .kylehome{
+    width: 100%;
+  }
+  .now{
+    position: absolute;
+    top: 40%;
+    padding-left: 2%;
+    color: #fff;
+  }
+  .cosmotic{
+    position: absolute;
+    top: 42%;
+    padding-left: 2%;
+    color: #fff;
+    font-size: 43px;
+  }
+  .cosm{
+    position: absolute;
+    top: 53%;
+    padding-left: 2%;
+    color: #fff;
+    font-size: 23px;
+  }
+  .shop{
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    padding: 20px;
+    color: #000;
+    font-size: 23px;
+    border: none;
+    border-radius: 10px;
+
+  }
+  .SHOPHISHICATED{
+    position: absolute;
+    top: 105%;
+    left: 36%;
+    width: 30%;
+    height: 35%;
+    padding-top: 8%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow:3px 3px 5px 10px  #b2b1b1;
+    color: #7f4444;
+    border-radius: 30px;
+  }
+ 
+  .flower{
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 30%;
+    border-radius: 30px;
+  }
+  .honey{
+    position: absolute;
+    top: 105%;
+    left: 69%;
+    width: 30%;
+    border-radius: 30px;
+  }
+  .lash{
+    position: absolute;
+    top: 160%;
+    width: 98.5%;
+    height: 60%;
+   
+    
+  }
+  .get{
+    padding: 18px;
+    border: none;
+    color: #201f1f;
+    border-radius: 10px;
+  }
+  .text{
+    position: absolute;
+    top: 175%;
+    left: 3%;
+    color: #fff;
+  }
+  .kylie-girl{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: 45%;
+   border-radius: 30px;
+  }
+  .color{
+    position: absolute;
+    top: 220%;
+    width: 1080px;
+    background-color: #eacdd2;
+    padding: 20%;
+  }
+  .text1{
+    position: absolute;
+    top: 175%;
+    left: 3%;
+    color: #fff;
+  }
+ .INSPIRED{
+  position: absolute;
+    top: 227%;
+    left: 48%;
+    width: 45%;
+    height: 40%;
+    padding-top: 8%;
+    text-align: center;
+    background-color: #fff;
+    /* box-shadow:3px 3px 5px 10px  #b2b1b1; */
+    color: #7f4444;
+    border-radius: 30px;
+ }
+ .butter{
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30%;
+  grid-gap: 50px;
+  position: absolute;
+  top: 290%;
+ }
+.btn{
+  border: none;
+  padding: 25px;
+  border-radius: 20px;
+}
+.fragrance{
+  position: absolute;
+    top: 285%;
+    width: 99%;
+}
+.fragrance-perfume{
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+
+  grid-gap: 50px;
+  position: absolute;
+  top: 350%;
+  margin-left: 30px;
+  
+
+}
+.fragrance-images{
+  position: absolute;
+    top: 300%;
+    color: #fff;
+    padding-left: 3%;
+}
+.btn-fragrance{
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.main{
+  background-color: #e8d8db;
+  padding: 20%;
+  position: absolute;
+  top:341% ;
+  width: 1090px;
+  height: 150%;
+}
+.shop-all{
+  position: absolute;
+  top:400% ;
+  left: 45%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
+.fresh-skin{
+  position: absolute;
+  top:420% ;
+  display: grid;
+  grid-template-columns: 40% 40% 30%;
+  grid-gap: 100px;
+  margin-left: 10%;
+}
+.cosmotic-head{
+  position: absolute;
+  top:435% ;
+  left: 13%;
+  color: #fff;
+}
+.fragrance-head{
+  position: absolute;
+  top:435% ;
+  left: 43%;
+  color: #fff;
+}
+.skin-head{
+  position: absolute;
+  top:435% ;
+  left: 75%;
+  color: #fff;
+}
+.lip-shade{
+  position: absolute;
+  top:470% ;
+  left: 10%;
+
+}
+.VERTUAL{
+  position: absolute;
+  top:510% ;
+  left: 40%;
+  color: #fff;
+}
+.discovery{
+  position: absolute;
+  top:150% ;
+  left: 45%;
+  border: none;
+  padding: 15px;
+}
+.label{
+  position: absolute;
+  top: 570%;
+  left: 28%;
+  
+}
+.icon-social{
+  position: absolute;
+  top: 595%;
+  left: 35%;
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30%;
+  grid-gap: 20px;
+}
+.Order-tracking{
+  position: absolute;
+  top: 605%;
+  left: 25%;
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30%;
+  grid-gap: 60px;
+  font-size: 23px;
+}
+.policy{
+  position: absolute;
+  top: 625%;
+  left: 20%;
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30% 30%;
+  grid-gap: 30px;
+  font-size: 23px;
+  text-decoration: underline;
+}
+.coty{
+  position: absolute;
+  top: 635%;
+  left: 45%;
+  font-size: 23px;
+  padding-bottom: 5%;
+}
+</style>
+<body>
+    <div class="cos" align="center">
+        <p>just dropped! new ultra-hydrating lip butter - shop now</p>
+
+    </div>
+    <a href="./kylie.html" id="kylie" align="center">KYLIE COSMOTICS</a>
+    <header>
+        <nav>
+            <a href="./cosmotic.html">COSMOTICS</a>
+            <a>FRAGRANCE</a>
+            <a>SKIN</a>
+            <a>BABY</a>
+            <a>DISCOVERY</a>
+        </nav>
+    </header>
+    <div>
+        <img src="images/girl-maskara.webp" class="kylehome"/>
+    </div>
+    <h3 class="now">NOW AVAILABLE</h3>
+    <h1 class="cosmotic">COSMOTICS<br/>KYLIE JENNER</h1>
+    <div class="cosm">
+        <p>Kylie's debut fragrance.<br/>a magnetic,Skin-inspired scent that<br/>smells out of the world.</p>
+    </div>
+    <button class="shop">shop Now</button>
+    <div style="background-color: #eacdd2;">
+        <img src="images/flower.webp" class="flower"/>
+        <div class="SHOPHISHICATED">
+            <h1>SWEET,WARM,<BR/>SHOPHISHICATED</h1>
+            <p style="font-size: 18px;color: #000;">Lorem ipsum dolor sit amet consectetur<br/> adipisicing elit. Eum, ipsa.</p>
+        </div>
+        
+            <img src="images/honey.webp" class="honey"/>
+     
+    </div>
+    <div >
+        <img src="images/lash.webp" class="lash" />
+        <div class="text">
+        <h3>KYLIE JENNER</h3>
+        <h1>WISP LASH<BR/> MASKARA</h1>
+        <p style="font-size: 20px;">Lorem, ipsum dolor sit amet consectetur<br/> adipisicing elit.<br/> Dolores, iusto?</p>
+        <p>Comming April 4.</p>
+        <button class="get">get notified</button>
+        </div>
+    </div>
+   <div class="color" >
+        <img src="images/kylie-girl.webp" class="kylie-girl"/>
+   </div> 
+   <div class="INSPIRED">
+    <h1>KYLIE'S <br/>COSMIC-INSPIRED <br/>GLAM</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, explicabo.</p>
+    <button class="btn">Shop Now</button>
+   </div>
+   
+   <div class="butter">
+    <img src="images/lip-butter.webp" style="width: 300px;"/>
+    <img src="images/lip-kylie.webp" style="width: 300px;"/>
+    <img src="images/kjs-vennela.webp" style="width: 300px;"/>
+    <img src="images/power-plush.webp"style="width: 300px;"/>
+   </div>
+
+   <div>
+    <img src="images/Fragrance.webp" class="fragrance"/>
+   </div>
+   <div class="fragrance-images">
+    <h1>THE SIZES</h1>
+    <p style="font-size: 20px;">Lorem ipsum dolor sit, amet<br/> consectetur adipisicing elit.<br/> Error, voluptas.</p>
+    <button class="btn-fragrance">Shop Now</button>
+   </div>
+   <div class="main">
+  
+   </div>
+
+   <div class="fragrance-perfume">
+    <img src="images/perfume1.webp" style="width: 400px;"/>
+    <img src="images/perfume1.webp" style="width: 400px;"/>
+    <img src="images/perfume1.webp" style="width: 400px;"/>
+    <img src="images/refil.webp" style="width: 400px;"/>
+
+</div>
+<button class="shop-all">Shop All</button>
+
+<div class="fresh-skin">
+  <img src="images/lip-mat.webp" />
+  <img src="images/perfume-cosmic-gel.webp"/>
+  <img src="images/fresh-skin.webp" style="width: 300px;"/>
+</div>
+<div class="cosmotic-head">
+  <h1>COSMOTICS</h1>
+</div>
+<div class="fragrance-head">
+  <h1>FRAGRANCE</h1>
+</div>
+<div class="skin-head">
+  <h1>SKIN</h1>
+</div>
+
+<div class="lip-shade">
+  <img src="images/lip-shade.webp"/>
+</div>
+<div class="VERTUAL">
+<h1>VERTUAL TRY ON</h1>
+<button class="discovery">discovery</button>
+  </div> 
+  <div class="label">
+    <h2>Sign up for updates</h2>
+    <input type="email" placeholder="email Address"  style="width: 280%;padding: 20px;border-radius: 10px;"/>
+    <button style="width: 60%;padding: 20px;border-radius: 10px;position: absolute;top: 55%;left: 350%;">Submit</button>
+  
+  </div>
+
+ <div class="icon-social">
+  <img src="images/icon-music.png"/>
+  <img src="images/icon-insta.webp"/>
+  <img src="images/icon-twitter.png"/>
+  <img src="images/icon-facebook.png"/>
+ </div>
+
+ <div class="Order-tracking">
+  <a>Contact</a>
+  <a>Faq's</a>
+  <a>Shipping</a>
+  <a>Order-tracking</a>
+ </div>
+
+
+ <div class="policy">
+  <a>privacy policy</a>
+  <a>terms</a>
+  <a>accessibility</a>
+  <a>set my cookie choices</a>
+  <a>cokkie policy</a>
+ </div>
+ <div class="coty">
+  <a>@ coty operations</a>
+ </div>
+</body>
+</html>
